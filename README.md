@@ -87,14 +87,25 @@ For more visual examples, visit the [project showcase website](https://roosh.no/
 ## Installation & Setup
 
 1. Download and install [Processing](https://processing.org/download/)
-2. Clone this repository or download the files
-3. Open `Gjenskinn.pde` in Processing
-4. Click the "Run" button to start the particle system
+2. **Install the Video library** (Required):
+   - Open Processing IDE
+   - Go to Tools → Manage Tools → Libraries
+   - Search for "Video" 
+   - Click Install on the "Video" library by The Processing Foundation
+3. **Ensure a webcam is connected** and available to your system
+4. Clone this repository or download the files
+5. Open `Gjenskinn.pde` in Processing
+6. Click the "Run" button to start the particle system
 
 ## Requirements
 
 - Processing 3.0 or higher
-- Optional: Webcam for color sampling functionality
+- **Video Library** (Required) - Install via Processing IDE: Tools → Manage Tools → Libraries → Search "Video" → Install
+- Webcam (Required) - The program will exit if no camera is detected
+
+## ⚠️ Important Installation Note
+
+**The Video library is REQUIRED for this program to run.** Without it, the program will crash immediately on startup. The program also requires a webcam to be connected and available.
 
 ## File Structure
 
