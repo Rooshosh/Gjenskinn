@@ -1,0 +1,39 @@
+# Processing
+*.pde~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Screenshots (optional - uncomment if you don't want to track screenshots)
+# Screenshots/
+
+# Build outputs
+application.linux64/
+application.windows64/
+application.macosx/
+application.windows32/
+application.linux32/
+application.linux-armv6hf/
+
+# Data folder (if it contains large files)
+# data/
