@@ -1,4 +1,4 @@
-# Gjenskinn - Interactive Particle System
+# Gjenskinn
 
 An interactive particle system created in Processing that generates beautiful, dynamic artworks through real-time manipulation of particle behavior, flow fields, and visual effects.
 
